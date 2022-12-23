@@ -1,0 +1,45 @@
+button {
+  width: 3.1em;
+  height: 3.1em;
+  font-size: 1.5em;
+  font-weight: 700;
+  border: none;
+  border-radius: 2em;
+  margin: 0.3em;
+  cursor: pointer;
+  transition: 0.7s;
+  background-color: transparent;
+  color: white;
+}
+.buttons {
+  padding-bottom: 0.7em;
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.493);
+}
+.calculator {
+  background-color: transparent;
+  border-radius: 0.8em;
+
+  width: 100%;
+  max-width: 400px;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+.clearButtons {
+  color: rgb(100, 165, 196);
+}
+.operatorButtons {
+  color: rgb(100, 165, 196);
+}
+.equalSign {
+  background-color: #1e467b;
+}
+.outputPart {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0.2em;
+  padding: 1em;
+  font-size: 3.5em;
+}
